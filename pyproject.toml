@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Loggly"
+version = "0.1.0"
+description = ""
+authors = ["Tahsin Sayeed <tahsinalsayeed@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+docker = "^6.0.1"
+boto3 = "^1.26.42"
+
+[tool.poetry.dev-dependencies]
+boto3-stubs = "^1.26.42"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

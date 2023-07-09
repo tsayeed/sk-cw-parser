@@ -1,0 +1,11 @@
+__pycache__/
+# for poetry config virtualenvs.inproject true
+.venv
+# postgres data directory
+data
+# .env
+.env
+*.pem
+.DS_Store
+.idea
+.python-version
